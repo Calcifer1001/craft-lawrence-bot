@@ -1,0 +1,6 @@
+1) Calcular posición respecto min-max
+2) Devolver comandos de near a ejecutar 
+    Opciones
+        1- nada
+        2- Salir de un farm, salir de un lp, swapear, entrar en un lp, entrar en un farm 
+3) 

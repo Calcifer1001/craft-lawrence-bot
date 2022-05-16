@@ -1,0 +1,14 @@
+Proceeding to buy
+Percentage to move 0.17338290458213818
+Removing from farm 21210394087194879
+Removing liquidity from stable 21210394087194879
+Swapping 12980 usdt.fakes.testnet for wNear
+Swapping 28618033 usdc.fakes.testnet for wNear
+Swapping 3296486957588054392 dai.fakes.testnet for wNear
+Swapping 0 wNear for stNear
+Adding liquidity
+Registering stnear.fakes.testnet
+Transfering 0 stnear.fakes.testnet to ref
+Registering wrap.testnet
+Transfering 5150901102173489948753944 wrap.testnet to ref
+Trying to add zero liquidity. Returning

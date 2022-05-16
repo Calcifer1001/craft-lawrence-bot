@@ -1,0 +1,28 @@
+Tengo 100 usd y 10 near
+
+Definimos precio min de near min(x) y precio max de near max(x) con dos rectas.
+
+Se hacer un corrimiento de forma que min(x) = 0 y max(x) = 100
+
+calc = (current_price - min(x)) / (max(x) - min(x)) (ajustar para que esté entre 0 y 1)
+
+Si el precio de near es menor que 25 se compra un poco de near. Mientras más cerca de 0 esté, más se compra
+Si el precio de near es mayor que 75 se vende un poco de near. Mientras más cerca de 1 esté, más se vende
+Si está entre 25 y 75 no se hace nada. 
+
+Si calc = 0 entonces paso todo mi capital a near
+Si calc = 1 entonces paso todo mi capital a usd
+n = 8 // Iteraciones
+h = 6 // horas cada cuanto
+Si calc = x < 0.25 entonces compro -> (1-x)^n * current_usd / (24 / h)
+Si calc = x > 0.75 entonces compro -> x^n * current_near
+Si calc = 0.2 compro (1-0.2)^8 * current_usd = 0.167 * current_usd
+Si calc = 0.15 compro (1-0.15)^8 * current_usd = 0.272 * current_usd
+Si calc = 0.1 compro (1-0.1)^8 * current_usd = 0.167 * current_usd
+Si calc = 0.01 compro (1-0.01)^8 * current_usd = 0.92 * current_usd
+
+Toda la plata que tengamos, la metemos en un farm:
+
+usd en usdt-usdc-dai (o usdt-usn)
+near en wnear-stnear
+
